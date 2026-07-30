@@ -1,16 +1,48 @@
-## Hi there 👋
+# 🧬 scRNA App
 
-<!--
-**fjym24/fjym24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A web application for exploring and analyzing scRNA-seq data.
 
-Here are some ideas to get you started:
+🔗 Repository: https://github.com/fjym24/scRNAapp
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🎯 Goal
+
+Build a unified workflow for common scRNA-seq formats (currently **Seurat** and **AnnData**), covering:
+
+- 📥 Data import
+- 🧹 Quality Control (QC)
+- 📊 Visualization
+- 🔬 Downstream analysis
+
+---
+
+## 🛠 Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Frontend | React + TypeScript + Vite |
+| Backend | FastAPI (Python) |
+| Analysis Engine | R (Seurat) + Python (Scanpy ecosystem) |
+| Database | MongoDB |
+| Storage | Local file storage |
+
+---
+
+## 🚧 Current Progress
+
+- ✅ Load Seurat (`.rds`) and AnnData (`.h5ad`) datasets
+- ✅ Display and visualize metadata
+- 🚧 Quality Control (QC)
+
+---
+
+## 🤝 Collaboration
+
+If you're interested in collaborating, I'd especially appreciate help with:
+
+- ⚛️ React frontend
+- 🐍 Python backend
+- 🧬 R / scRNA-seq analysis
+
+---
